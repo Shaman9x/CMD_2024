@@ -1,7 +1,8 @@
-CMD_2024 Dataset for Cloud-based Malware Detection (9 Classes)
+📊 Dataset Overview
+CMD_2024 Dataset for Cloud-based Malware Detection (9 Classes):
+
 The CMD_2024 dataset is a curated collection designed to support research and development in malware detection using Machine Learning (ML) and Deep Learning (DL) approaches. It enables both binary (malicious vs benign) and multi-class classification tasks.
 
-📊 Dataset Overview
 CMD_2024 includes 9 distinct classes:
 
 | Class       | Training Samples | Testing Samples |
@@ -17,10 +18,15 @@ CMD_2024 includes 9 distinct classes:
 | Downloader  | 32               | 26              |
 
 📌 Key Features
+
 Supports ML/DL training for both binary and multi-class classification.
+
 Includes both static and dynamic attributes of malware.
+
 Suitable for cloud-based environments and publicly accessible use.
+
 Accompanied by detailed documentation of the dataset creation process.
+
 🧬 Why Static and Dynamic Attributes Matter
 Static features include characteristics such as encryption methods, code structures — typically extracted from executable files or metadata. These allow models to learn patterns without running the sample.
 
