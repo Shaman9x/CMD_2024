@@ -3,19 +3,21 @@ CMD_2024 Dataset for Cloud-based Malware Detection (9 Classes):
 
 The CMD_2024 dataset is a curated collection designed to support research and development in malware detection using Machine Learning (ML) and Deep Learning (DL) approaches. It enables both binary (malicious vs benign) and multi-class classification tasks.
 
-CMD_2024 includes 9 distinct classes:
+🏷️ Labeling Conventions for Executable File Samples
 
-| Class       | Training Samples | Testing Samples |
-|-------------|------------------|-----------------|
-| Trojan      | 7,484            | 5,987           |
-| Benign      | 5,016            | 4,013           |
-| Virus       | 3,955            | 3,164           |
-| Worm        | 2,673            | 2,138           |
-| Adware      | 800              | 640             |
-| Ransomware  | 751              | 601             |
-| Miner       | 90               | 72              |
-| PUA         | 49               | 39              |
-| Downloader  | 32               | 26              |
+| No. | Label        | Binary Label | Multi-class Label | Quantity |
+|-----|--------------|--------------|--------------------|----------|
+| 1   | Benign       | 0            | 0                  | 5,016    |
+| 2   | Virus        | 1            | 1                  | 3,955    |
+| 3   | Trojan       | 1            | 2                  | 7,484    |
+| 4   | Worm         | 1            | 3                  | 2,673    |
+| 5   | Ransomware   | 1            | 4                  | 751      |
+| 6   | Adware       | 1            | 5                  | 800      |
+| 7   | Miner        | 1            | 6                  | 90       |
+| 8   | PUA          | 1            | 7                  | 49       |
+| 9   | Downloader   | 1            | 8                  | 32       |
+|     | **Total**    |              |                    | **20,850** |
+
 
 📌 Key Features
 
